@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 43% 97%; /* warm sand */
+    --foreground: 40 15% 20%; /* bark */
+    --card: 0 0% 100%;
+    --card-foreground: 40 15% 20%;
+    --muted: 38 30% 92%; /* linen */
+    --muted-foreground: 38 8% 46%; /* taupe */
+    --border: 36 24% 86%; /* stone */
+    --input: 36 24% 86%;
+    --ring: 137 48% 30%; /* forest */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-sand text-bark font-sans antialiased;
+    font-size: 1rem;
+    line-height: 1.65rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-heading font-semibold text-bark;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    @apply bg-honey/25 text-bark;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-6 lg:px-8;
+  }
+
+  /* Small refined eyebrow label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-[0.7rem] font-semibold uppercase
+      tracking-[0.22em] text-forest;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-6 bg-forest/50;
+  }
+
+  /* Section rhythm - tighter than before */
+  .section {
+    @apply scroll-mt-20 py-14 sm:py-16 lg:py-20;
+  }
+
+  /* Section heading helper */
+  .h-section {
+    @apply font-heading text-2xl font-semibold leading-tight sm:text-3xl;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Subtle warm scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #f4eee3;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9bda6;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #256d3a;
+}
