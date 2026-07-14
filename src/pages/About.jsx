@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <PageHero
-        eyebrow="Who We Are"
+        eyebrow="Who We Are Now"
         title="A partner in your"
         highlight="agricultural success"
         subtitle="Established in 2024 at the edge of the Mau Forest, turning agriculture into a profitable, sustainable enterprise for farmers, investors and communities."
