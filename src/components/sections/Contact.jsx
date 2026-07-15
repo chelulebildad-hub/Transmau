@@ -59,7 +59,7 @@ export function Contact() {
                         Email
                       </div>
                       <div className="text-base font-semibold">
-                        info@transmau.co.ke
+                        info@transmaufarms.com
                       </div>
                     </div>
                   </a>
