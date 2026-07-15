@@ -50,7 +50,7 @@ export function Contact() {
                     </div>
                   </a>
                   <a
-                    href="mailto:info@transmau.co.ke"
+                    href="mailto:info@transmaufarms.com"
                     className="flex items-center gap-3.5 rounded-xl border border-white/10 bg-white/5 p-3.5 transition-colors hover:bg-white/10"
                   >
                     <Mail className="h-4.5 w-4.5 text-honey" strokeWidth={1.75} />
