@@ -44,7 +44,7 @@ export function Navbar() {
           <img
             src="/images/logo.jpeg"
             alt="Trans Mau Orchards and Honey"
-            className="h-9 w-9 rounded-lg bg-white object-contain p-px ring-1 ring-stone"
+            className="h-14 w-14 rounded-lg bg-white object-contain p-px ring-1 ring-stone"
           />
           <span className="hidden flex-col leading-none sm:flex">
             <span
