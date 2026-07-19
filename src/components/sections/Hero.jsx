@@ -49,11 +49,15 @@ export function Hero() {
 
       <div className="container-x flex min-h-[92vh] flex-col items-center justify-center pt-24 pb-16 text-center">
         <div className="max-w-3xl animate-fade-up">
-          <h1 className="font-heading text-5xl font-semibold leading-[1.05] text-white sm:text-6xl lg:text-7xl">
-            Where orchards bloom
-            <br />
-            and <span className="italic text-honey">honey flows</span>
-          </h1>
+          <div className="space-y-4">
+  <h1 className="font-heading text-5xl font-semibold leading-[1.05] text-white sm:text-6xl lg:text-7xl">
+    Trans Mau Orchards &amp; Honey
+  </h1>
+
+  <p className="text-lg italic text-honey sm:text-xl lg:text-2xl">
+    Where Orchards Bloom, and Honey Flows.
+  </p>
+</div>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/85 sm:text-xl">
             Premium fruit seedlings, commercial orchards and pure natural honey,
