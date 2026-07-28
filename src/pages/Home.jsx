@@ -125,7 +125,7 @@ export default function Home() {
     <>
      <Helmet>
         <title>
-          Trans Mau Orchards & Honey | Certified Fruit Seedlings, Pure Honey & Bee Products
+          Trans Mau Orchards & Honey | Certified Fruit Seedlings in Kenya | Pure Honey & Bee Products
         </title>
 
         <meta
@@ -143,13 +143,6 @@ export default function Home() {
           href="https://www.transmaufarms.com/"
         />
       </Helmet>
-
-      <Hero />
-      <Marquee />
-      <IntroStrip />
-      <Products />
-      <WhyUs />
-      <CtaBand />
       <Hero />
       <Marquee />
       <IntroStrip />
