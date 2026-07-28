@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "@/components/Layout";
+import Analytics from "@/components/Analytics";
+
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Seedlings from "@/pages/Seedlings";
@@ -12,6 +14,8 @@ import NotFound from "@/pages/NotFound";
 export default function App() {
   return (
     <BrowserRouter>
+      <Analytics />
+
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
