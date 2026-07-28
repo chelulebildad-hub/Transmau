@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Hero } from "@/components/sections/Hero";
 import { Products } from "@/components/sections/Products";
@@ -122,6 +123,33 @@ function IntroStrip() {
 export default function Home() {
   return (
     <>
+     <Helmet>
+        <title>
+          Trans Mau Orchards & Honey | Certified Fruit Seedlings, Pure Honey & Bee Products
+        </title>
+
+        <meta
+          name="description"
+          content="Trans Mau Orchards & Honey supplies certified avocado, apple, citrus and grape seedlings, pure natural honey, bee pollen, beeswax, orchard establishment services and farmer training from Olenguruone, Nakuru County, Kenya."
+        />
+
+        <meta
+          name="keywords"
+          content="avocado seedlings Kenya, Hass avocado seedlings, apple seedlings Kenya, citrus seedlings, bee pollen Kenya, pure honey Kenya, beeswax Kenya, orchard establishment, farmer training, Olenguruone, Nakuru"
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.transmaufarms.com/"
+        />
+      </Helmet>
+
+      <Hero />
+      <Marquee />
+      <IntroStrip />
+      <Products />
+      <WhyUs />
+      <CtaBand />
       <Hero />
       <Marquee />
       <IntroStrip />
