@@ -16,7 +16,7 @@ const reasons = [
 
 export function WhyUs() {
   return (
-    <section className="section bg-linen">
+    <section id="why-us" className="section bg-linen scroll-mt-24">
       <div className="container-x">
         <Reveal className="mx-auto max-w-xl text-center">
           <span className="eyebrow mx-auto">Why Choose Us</span>

@@ -5,8 +5,8 @@ const cols = [
   {
     title: "Explore",
     links: [
-      ["Fruit Seedlings", "/seedlings"],
-      ["Commercial Orchards", "/orchards"],
+      ["Why Choose Us", "/about#why-us"],
+      ["Contact Us", "/contact"],
       ["Honey and Bee Products", "/honey-bees"],
       ["Training and Visits", "/training-visits"],
     ],
@@ -15,9 +15,9 @@ const cols = [
     title: "Company",
     links: [
       ["About Us", "/about"],
-      ["Why Choose Us", "/about"],
+      ["Fruit Seedlings", "/seedlings"],
+      ["Commercial Orchards", "/orchards"],
       ["Farm Visits", "/training-visits"],
-      ["Contact", "/contact"],
     ],
   },
 ];

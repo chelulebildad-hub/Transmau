@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { PageHero } from "@/components/PageHero";
 import { Contact as ContactSection } from "@/components/sections/Contact";
 import { Reveal } from "@/components/ui/reveal";
@@ -62,6 +63,12 @@ function MapStrip() {
 export default function Contact() {
   return (
     <>
+    <SEO
+  title="Farmer Training & Farm Visits"
+  description="Visit Trans Mau Farms for practical training in fruit farming, orchard management, beekeeping, azolla production and sustainable agribusiness."
+  url="/training-visits"
+  image="/images/training-hero.jpeg"
+/>
       <PageHero
         eyebrow="Get in Touch"
         title="Let's grow something"

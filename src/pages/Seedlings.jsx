@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { PageHero } from "@/components/PageHero";
 import { Seedlings as SeedlingsSection } from "@/components/sections/Seedlings";
 import { CtaBand } from "@/components/CtaBand";
@@ -70,6 +71,12 @@ function Napier() {
 export default function Seedlings() {
   return (
     <>
+     <SEO
+        title="Certified Fruit Seedlings in Kenya"
+        description="Buy certified disease-free Hass avocado, Fuerte avocado, Wambugu apple, Washington Navel orange, Pixie orange, grape, passion fruit, lemon, guava, pear, plum, peach and other premium fruit seedlings from Trans Mau Farms in Olenguruone, Nakuru County. Healthy planting materials for productive orchards across Kenya."
+        url="/seedlings"
+        image="/images/real-seedlings-bench.jpeg"
+      />
       <PageHero
         eyebrow="Premium Fruit Seedlings"
         title="Strong seedlings,"

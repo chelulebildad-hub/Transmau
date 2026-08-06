@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { PageHero } from "@/components/PageHero";
 import { Beekeeping as BeekeepingSection } from "@/components/sections/Beekeeping";
 import { CtaBand } from "@/components/CtaBand";
@@ -83,6 +84,12 @@ function HoneyBanner() {
 export default function HoneyBees() {
   return (
     <>
+    <SEO
+  title="Pure Honey, Beeswax & Beekeeping"
+  description="Discover premium natural honey, bee pollen, beeswax, propolis and professional beekeeping services from Trans Mau Farms. We also provide apiary establishment and management training."
+  url="/honey-bees"
+  image="/images/honey-hero.jpeg"
+/>
       <PageHero
         eyebrow="Beekeeping and Honey Production"
         title="Honey as pure as the"

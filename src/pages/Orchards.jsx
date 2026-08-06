@@ -1,3 +1,4 @@
+import SEO from "@/components/SEO";
 import { PageHero } from "@/components/PageHero";
 import { CtaBand } from "@/components/CtaBand";
 import { Reveal } from "@/components/ui/reveal";
@@ -51,6 +52,12 @@ function Gallery() {
 export default function Orchards() {
   return (
     <>
+    <SEO
+  title="Commercial Fruit Orchards in Kenya"
+  description="Explore Trans Mau Farms' commercial fruit orchards in Olenguruone, Nakuru County. We grow Hass avocados, apples, citrus, grapes and other fruits using sustainable farming practices for high productivity and quality."
+  url="/orchards"
+  image="/images/orchard-apples-hero.jpeg"
+/>
       <PageHero
         eyebrow="Commercial Fruit Production"
         title="Working orchards that"
