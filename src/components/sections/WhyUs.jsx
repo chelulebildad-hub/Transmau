@@ -16,14 +16,15 @@ const reasons = [
 
 export function WhyUs() {
   return (
-    <section id="why-us" className="section bg-linen scroll-mt-24">
-      <div className="container-x">
-        <Reveal className="mx-auto max-w-xl text-center">
+    <section id="why-us" className="py-16">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="text-center">
           <span className="eyebrow mx-auto">Why Choose Us</span>
-          <h2 className="mt-4 h-section">
+
+          <h2 className="mt-3 text-3xl font-bold text-bark sm:text-4xl">
             More than a farm, a partner in your success
           </h2>
-        </Reveal>
+        </div>
 
         <div className="mx-auto mt-10 grid max-w-3xl gap-2.5 sm:grid-cols-2">
           {reasons.map((r, i) => (
@@ -32,6 +33,7 @@ export function WhyUs() {
                 <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-forest text-white">
                   <Check className="h-3.5 w-3.5" strokeWidth={2.5} />
                 </span>
+
                 <span className="text-sm font-medium text-bark">{r}</span>
               </div>
             </Reveal>

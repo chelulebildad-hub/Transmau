@@ -1,35 +1,36 @@
-<Helmet>
-  <title>About Trans Mau Farms | Fruit Seedlings, Beekeeping & Farmer Training</title>
+import SEO from "@/components/SEO";
+import { PageHero } from "@/components/PageHero";
+import { About as AboutSection } from "@/components/sections/About";
+import { Environment } from "@/components/sections/Environment";
+import { WhyUs } from "@/components/sections/WhyUs";
+import { CtaBand } from "@/components/CtaBand";
 
-  <meta
-    name="description"
-    content="Learn about Trans Mau Farms in Olenguruone, Nakuru County. We specialize in certified disease-free fruit seedlings, commercial orchards, beekeeping, azolla production, and farmer training."
-  />
+export default function About() {
+  return (
+    <>
+      <SEO
+        title="About Trans Mau Farms | Fruit Seedlings, Beekeeping & Farmer Training"
+        description="Learn about Trans Mau Farms in Olenguruone, Nakuru County. We specialize in certified disease-free fruit seedlings, commercial orchards, beekeeping, azolla production, and farmer training."
+        canonical="https://www.transmaufarms.com/about"
+      />
 
-  <link
-    rel="canonical"
-    href="https://www.transmaufarms.com/about"
-  />
+      <PageHero
+        eyebrow="Who We Are"
+        title="A partner in your"
+        highlight="agricultural success"
+        subtitle="Established in 2024 at the edge of the Mau Forest, turning agriculture into a profitable, sustainable enterprise for farmers, investors and communities."
+        image="/images/orchard-apples-hero.jpeg"
+        crumbs={["About"]}
+      />
 
-  <meta
-    property="og:title"
-    content="About Trans Mau Farms | Fruit Seedlings, Beekeeping & Farmer Training"
-  />
+      <AboutSection />
+      <Environment />
+      <WhyUs />
 
-  <meta
-    property="og:description"
-    content="Learn about Trans Mau Farms, our orchards, nursery, beekeeping, and sustainable farming practices."
-  />
-
-  <meta
-    property="og:image"
-    content="https://www.transmaufarms.com/images/orchard-apples-hero.jpeg"
-  />
-
-  <meta
-    property="og:url"
-    content="https://www.transmaufarms.com/about"
-  />
-
-  <meta property="og:type" content="website" />
-</Helmet>
+      <CtaBand
+        title="Come see it for yourself"
+        subtitle="Tour our orchards, nurseries and apiaries and experience agriculture at the edge of the Mau."
+      />
+    </>
+  );
+}

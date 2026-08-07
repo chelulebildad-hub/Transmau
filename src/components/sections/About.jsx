@@ -1,38 +1,25 @@
-import SEO from "@/components/SEO";
-
-import { PageHero } from "@/components/PageHero";
-import { About as AboutSection } from "@/components/sections/About";
-import { Environment } from "@/components/sections/Environment";
-import { WhyUs } from "@/components/sections/WhyUs";
-import { CtaBand } from "@/components/CtaBand";
-
-export default function About() {
+export function About() {
   return (
-    <>
-      <SEO
-        title="About Trans Mau Farms"
-        description="Learn about Trans Mau Farms in Olenguruone, Nakuru County. We produce certified disease-free fruit seedlings, operate commercial orchards, offer beekeeping products and farmer training."
-        url="/about"
-        image="/images/orchard-apples-hero.jpeg"
-      />
+    <section className="py-16">
+      <div className="container mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-6">
+          Growing Agriculture Through Quality and Innovation
+        </h2>
 
-      <PageHero
-        eyebrow="Who We Are"
-        title="A partner in your"
-        highlight="agricultural success"
-        subtitle="Established in 2024 at the edge of the Mau Forest, turning agriculture into a profitable, sustainable enterprise for farmers, investors and communities."
-        image="/images/orchard-apples-hero.jpeg"
-        crumbs={["About"]}
-      />
+        <p className="text-lg leading-relaxed">
+          Trans Mau Orchards & Honey is an agricultural enterprise established
+          in 2024 at the edge of the Mau Forest in Olenguruone, Nakuru County.
+          We focus on quality fruit seedlings, commercial orchards,
+          sustainable beekeeping, and empowering farmers through knowledge
+          and practical training.
+        </p>
 
-      <AboutSection />
-      <Environment />
-      <WhyUs />
-
-      <CtaBand
-        title="Come see it for yourself"
-        subtitle="Tour our orchards, nurseries and apiaries and experience agriculture at the edge of the Mau."
-      />
-    </>
+        <p className="text-lg leading-relaxed mt-4">
+          Our commitment is to produce healthy, productive, and disease-free
+          planting materials while promoting sustainable farming practices
+          that benefit farmers, communities, and the environment.
+        </p>
+      </div>
+    </section>
   );
 }
