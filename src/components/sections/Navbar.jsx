@@ -105,25 +105,16 @@ export function Navbar() {
       )}
     >
       <nav className="container-x flex h-16 items-center justify-between">
-        <Link to="/" className="flex flex-col">
-          <span
-            className={cn(
-              "font-heading text-sm font-semibold tracking-tight",
-              solid ? "text-bark" : "text-white"
-            )}
-          >
-            Trans Mau
-          </span>
-
-          <span
-            className={cn(
-              "mt-0.5 text-[0.7rem] font-medium uppercase tracking-[0.2em]",
-              solid ? "text-forest" : "text-honey"
-            )}
-          >
-            Orchards and Honey
-          </span>
-        </Link>
+    <Link
+  to="/"
+  className="flex h-20 w-36 items-center justify-center overflow-hidden"
+>
+  <img
+    src="/images/logo.jpeg"
+    alt="Trans Mau Orchards & Honey"
+    className="h-[155%] w-[155%] object-contain"
+  />
+</Link>
 
         <div className="hidden items-center gap-0.5 lg:flex">
           {links.map((l) =>
