@@ -63,12 +63,12 @@ function MapStrip() {
 export default function Contact() {
   return (
     <>
-    <SEO
-  title="Farmer Training & Farm Visits"
-  description="Visit Trans Mau Farms for practical training in fruit farming, orchard management, beekeeping, azolla production and sustainable agribusiness."
-  url="/training-visits"
-  image="/images/training-hero.jpeg"
-/>
+      <SEO
+        title="Contact Trans Mau Orchards & Honey | Nakuru, Kenya"
+        description="Contact Trans Mau Orchards & Honey in Olenguruone, Nakuru County for quality fruit seedlings, orchard establishment, honey and bee products, farmer training and farm visits."
+        url="/contact"
+        image="/images/real-delivery-car.jpeg"
+      />
       <PageHero
         eyebrow="Get in Touch"
         title="Let's grow something"

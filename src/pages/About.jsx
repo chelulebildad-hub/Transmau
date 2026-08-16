@@ -9,9 +9,9 @@ export default function About() {
   return (
     <>
       <SEO
-        title="About Trans Mau Farms | Fruit Seedlings, Beekeeping & Farmer Training"
-        description="Learn about Trans Mau Farms in Olenguruone, Nakuru County. We specialize in certified disease-free fruit seedlings, commercial orchards, beekeeping, azolla production, and farmer training."
-        canonical="https://www.transmaufarms.com/about"
+        title="About Trans Mau Farms | Seedlings, Orchards & Beekeeping"
+        description="Learn about Trans Mau Farms in Olenguruone, Nakuru County. We provide quality disease-free fruit seedlings, commercial orchards, beekeeping, azolla production, and practical farmer training."
+        url="/about"
       />
 
       <PageHero

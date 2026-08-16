@@ -30,7 +30,7 @@ export default function SEO({
   logo: `${siteUrl}/images/logo.jpeg`,
   image: imageUrl,
   description:
-    "Certified fruit seedlings, commercial orchards, honey production, beekeeping services, azolla production and farmer training.",
+    "Quality fruit seedlings, commercial orchards, honey production, beekeeping services, azolla production and farmer training.",
   telephone: "+254722358564",
   address: {
     "@type": "PostalAddress",
@@ -39,10 +39,6 @@ export default function SEO({
     addressCountry: "KE"
   },
   areaServed: "Kenya",
-  sameAs: [
-    "https://www.facebook.com/YourFacebookPage",
-    "https://www.instagram.com/YourInstagramPage"
-  ]
   };
 
   return (
